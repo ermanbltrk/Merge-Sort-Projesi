@@ -1,0 +1,14 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+*Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+[16,21,11,8,12,22] veri kümesinin merge sort algoritması ile sıralama aşamaları şunlardır:
+
+1.Adım: Dizi iki eşit parçaya ayrılır: [16,21,11] ve [8,12,22].
+2.Adım: Her parça ayrı ayrı sıralanır ve tekrar birleştirilir: [11,16,21] ve [8,12,22].
+3.Adım: Her iki parça birleştirilerek tek bir sıralı dizi oluşturulur: [8,11,12,16,21,22].
+Sonuç olarak dizi [8,11,12,16,21,22] şeklinde sıralanmıştır.
+
+*Big-O gösterimini yazınız.
+
+[16,21,11,8,12,22] veri kümesinin merge sort algoritması için Big-O gösterimi O(n log n)dir.
